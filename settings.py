@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     ENVIRONMENT: str
     APP_NAME: str
 
-    @validator("environment")
+    @validator("ENVIRONMENT")
     def validate_environment(cls, value):
         if value not in ["dev", "test", "prod"]:
             raise ValueError("ENVIRONMENT must be one of (dev, test, prod)")
