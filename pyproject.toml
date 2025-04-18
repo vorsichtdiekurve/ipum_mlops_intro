@@ -6,5 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pre-commit>=4.2.0",
-    "xenon>=0.9.3",
+    "pydantic-settings>=2.9.0",
 ]
