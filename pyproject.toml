@@ -7,4 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "pre-commit>=4.2.0",
     "pydantic-settings>=2.9.0",
+    "sops>=1.18",
+    "ruamel.yaml<0.18",
+    "pyyaml>=6.0.2",
 ]
