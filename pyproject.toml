@@ -17,3 +17,8 @@ dependencies = [
     "httpx>=0.28.1",
     "scikit-learn>=1.6.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "homework_lab1",
+]
